@@ -1,0 +1,4 @@
+documenting example of the three main types of cmake patterns
+* modular (each component built separately, using cmake-packages and installed into CMAKE_INSTALL_PREFIX)
+* superbuild (using a parent cmake project to build components as a single process)
+* cmake fetch-content 
